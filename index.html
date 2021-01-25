@@ -6,15 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style type="text/css">
+
+/* hyperlink text */
     a {
-    color: #e37222  ; /*#07889b;*/ /*#1772d0;*/ /*sets the color of the hyperlinks*/
+    color: #e37222 /*#7DA862;*/  ; /*#07889b;*/ /*#1772d0;*/ /*sets the color of the hyperlinks*/
     text-decoration:none;
     }
     a:focus, a:hover {
-    color: #e37222 ; /*#ffc300;*/ /*#e37222;*/ /*#f7b733;*/ /*f09228;*//*sets the color of the hoverover hyperlink*/
-    text-decoration: underline;
+    color: #e37222; /*#7DA862;*/ /*#e37222*/; /*#ffc300;*/ /*#e37222;*/ /*#f7b733;*/ /*f09228;*//*sets the color of the hoverover hyperlink*/
+    text-decoration: underline; /*underline;*/
     /* text-decoration:none; */
     }
+
+    /* body text */
     body,td,th,tr,p,a {
     /* font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;  */
     /* font-family: 'Lato', Verdana, Helvetica, sans-serif; */
@@ -23,16 +27,20 @@
     font-weight: 200;
     font-size: 15px; /*14*/
     }
+
     strong {
-    font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
+    font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    /*font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
     font-size: 15px; /*14*/
     }
+
+/* headings */
     heading {
     /* font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/ */
     font-family: "Veranda", sans-serif;
     font-size: 22px;
-    color: #e37222 ; /*#e37222*;/ /*#fc4a1a;*/
-    font-weight: 500;
+    color:   #e37222;  /*#e37222*;/ /*#fc4a1a;*/
+    font-weight: 200;
     }
     heading2 {
     font-family: "TeXGyrePagella", "Palatino Linotype", "Book Antiqua", Palatino, serif; /*'Lato', Verdana, Helvetica, sans-serif;*/
@@ -198,8 +206,9 @@
       width: 80%;
       margin: 0 auto; /* Center the DIV horizontally */
   }
+  /* set color of navigation bar default (unhighlighted) here */
   nav a{
-      color: #e37222;
+      color: #7DA862; #e37222;
       text-decoration: none;
       padding: 7px 25px;
       display: inline-block;
@@ -217,6 +226,7 @@
               <a href="#top" onclick="navDropdrown()">Home</a>
               <a href="#about" onclick="navDropdrown()">About</a>
               <a href="#research" onclick="navDropdrown()">Research</a>
+              <a href="#publications" onclick="navDropdrown()">Publications</a>
               <a href="#resources" onclick="navDropdrown()">Resources</a>
               <a href="#resources" onclick="navDropdrown()">More</a>
               <!-- <a href="#">Get in touch</a> -->
@@ -247,32 +257,36 @@
               <p style="text-align:left">
                 <name>Halleh B. Balch</name>
               </p>
-              <p>I'm wrapping up my PhD in Physics at UC Berkeley where I study light-matter interactions in complex condensed matter systems with <a href="https://wanglab.berkeley.edu">Feng Wang</a>.
+              <p>I am an experimental physicist studying light-matter interactions in complex condensed matter systems. I received my PhD in Physics at <a href="https://www.berkeley.edu/">UC Berkeley</a>, working with <a href="https://wanglab.berkeley.edu">Feng Wang</a> and funded by the <a href="https://www.nsfgrfp.org/"> NSF GRFP</a>. In addition to Berkeley, I have been a researcher at <a href="https://x.company/">[X]</a>, at the <a href="https://www.janelia.org/">HHMI Janelia Farm Research Campus</a>, at <a href="https://www.mit.edu/"> MIT</a>, and went to undergrad at <a href="https://www.swarthmore.edu/">Swarthmore</a> where I studied physics and literature.
 
-              <p>My research focuses on understanding how long-range behavior emerges from the  interactions of electrons at molecular length scales. These interactions play a central role in the natural world spanning photosynthesis to bioelectricity and enable discovery of materials with unique optical and electronic properties. </p>
-              </p>
 
-              <p>To study these systems, I develop and use a wide range of optical spectroscopy, microscopy, and scanning probe techniques that leverage broadband energies, polarization control, and spatiotemporal resolution.
 
               <p style="text-align:center">
                 <a href="mailto:halleh@berkeley.edu">Email</a> &nbsp||&nbsp
-                <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp||&nbsp -->
-                <!-- <a href="data/JonBarron-bio.txt">Biography</a> &nbsp||&nbsp -->
-                <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Google Scholar</a> &nbsp||&nbsp -->
                 <a href="https://linkedin.com/hallehbalch">LinkedIn</a> &nbsp||&nbsp
                 <a href="https://twitter.com/hallehbalch">Twitter</a>
 
               </p>
             </td>
+            <a href=#smooth_scroll class="anchor" id="research"></a>
+
             <td style="padding:2.5%;width:40%;max-width:40%">
               <!-- <a href="images/balch_circ-sm.jpg">
                 <img style="width:100%;max-width:100%" alt="profile photo"
                 src="images/balch_circ-sm.jpg" class="hoverZoomLink" onmouseover="this.src='images/eclipse-circ.jpg';"
                 onmouseout="this.src='images/balch_circ-sm.jpg';">
               </a> -->
-              <a href="images/balch_circ-sm.jpg">
+
+              <!-- <a href="images/IMG_8263_transparent.png">
                 <img style="width:100%;max-width:100%" alt="profile photo"
-                src="images/balch_circ-sm.jpg" class="hoverZoomLink">
+                src="images/balch_circ-sm.jpg" class="hoverZoomLink" onmouseover="this.src='images/eclipse-circ.jpg';"
+                onmouseout="this.src='IMG_8263_transparent.png';">
+              </a> -->
+
+              <a href="images/IMG_8263_transparent.png">
+              <!-- <a href="images/balch_circ-sm.jpg"> -->
+                <img style="width:100%;max-width:100%" alt="profile photo"
+                src="images/IMG_8263_transparent.png" class="hoverZoomLink">
               </a>
 
             </td>
@@ -297,31 +311,14 @@
                   <tr>
                   <!-- <a class="anchor" id="research"></a> -->
                   <!-- <td style="padding:20px;width:100%;vertical-align:middle"> -->
-                    <heading>Research</heading>
-                    <p>Research Summary
+      <heading>Research</heading>
+      <p>
+          <p> I am interested in understanding how long-range behavior emerges from the  interactions of electrons at molecular length scales. My research focuses on fundamental questions about the flow of charge and energy at the nanoscale, which play a central role throughout the natural world in processes spanning photosynthesis to bioelectricity. Research into these fundamental interactions can give rise to the discovery of novel functional materials and to the invention of new technologies. </p>
+          </p>
 
-                      <!-- Representative papers are <span class="highlight">highlighted</span>. -->
-                    </p>
-                    <a href=#smooth_scroll class="anchor" id="research"></a>
-                  </td>
-                </tr>
-              </tbody></table>
-              <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-<!-- Header: Publications  -->
-<!-- </td>
-</tr>
-</tbody>
-</table>
-  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr>
-      <td style="padding:20px;width:100%;vertical-align:middle">
-        <heading>Publications</heading>
-        <p>
-        </p> -->
+          <p>To study these systems, I develop and use a wide range of  imaging, optical spectroscopy, and scanning probe techniques that leverage broadband energies, polarization control, with high spatiotemporal resolution.</p>
 
 
-
-<!-- TIIP image -->
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -329,57 +326,213 @@
                 <img style="width:160"
                 src="images/tiip1.jpg" class="hoverZoomLink" onmouseover="this.src='images/tiip2.jpg';"
                 onmouseout="this.src='images/tiip1.jpg';">
-              </a>
+              </a> </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                  <papertitle>Emerging physics in 2D organic lattices</papertitle>
+                </a>
+                <br><i>Research Collaboration: Feng Wang, Will Dichtel, Seth Marder, Jean-Luc Bredas, Dan Ralph, Mike Crommie</i>
+                <p>For the past decade, control of low-dimensional materials (like graphene and transition metal dichalcogenides) and their heterostructures has enabled observation of both new quantum phenomena and efficient nanoscale technologies spanning solar energy conversion to water purification. Consequently, the ability to tune the electronic and optical properties of a low-dimensional material is of substantial research interest. Organic molecular lattices present a compelling route, where the electronic band structure can, in principle, be designed through choice of constituent molecules and formed using the tools of synthetic chemistry. From a broader perspective, organic lattices formed of naturally abundant atoms (e.g. C, N, O, H) represent an idealized experimental platform to explore electronic charge and energy transfer central to many complex and dynamic systems on Earth.</p>
 
-<!-- TIIP text -->
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="http://nlt.csail.mit.edu/"> -->
-                <papertitle>Electronically Coupled 2D Polymer / MoS<sub>2</sub> Heterostructures</papertitle>
-              </a>
-              <br><author>
-              <b>Halleh B. Balch†</b>, Austin M. Evans†, Raghunath R. Dasari†, Hong Li†, Ruofan Li†, Simil Thomas, Danqing Wang, Ryan P. Bisbey, Kaitlin Slicker, Ioannina Castano, Sangni Xun, Lili Jiang, Chenhui Zhu, Nathan Gianneschi, Daniel C. Ralph, Jean-Luc Brédas, Seth R. Marder, William R. Dichtel, Feng Wang.</author>
-             <em>under review</em> (2020)
-              <br>
-              <!-- <em>arXiv</em>, 2020 -->
-              <br>
-              <!-- <a href="http://nlt.csail.mit.edu/">project page</a> /
-              <a href="https://arxiv.org/abs/2008.03806">arXiv</a> /
-              <a href="https://www.youtube.com/watch?v=OGEnCWZihHE">video</a> -->
-              <p></p>
-              <p>
-                <abstract>Emergent quantum phenomena in electronically coupled two-dimensional heterostructures are central to next-generation optical, electronic, and quantum information applications. Tailoring electronic band gaps in coupled heterostructures would permit control of such phenomena and is the subject of significant research interest. Two-dimensional polymers (2DP) offer a compelling route to tailored band structures through the selection of molecular constituents. However, despite this promise of synthetic flexibility and electronic design, fabrication of 2DPs that form electronically coupled 2D heterostructures remains an outstanding challenge. Here, we report the rational design and optimized synthesis of an electronically coupled semiconducting 2DP/2D transition metal dichalcogenide (TMDC) heterostructure, demonstrate direct exfoliation of the highly crystalline and oriented 2DP films down to a few nanometers, and present the first thickness-dependent study of 2DP/TMDC vdW heterostructures. Control over the 2DP layers reveals enhancement of the 2DP photoluminescence by two orders of magnitude in ultra-thin sheets and an unexpected thickness-dependent modulation of the ultrafast excited state dynamics in the 2DP/TMDC heterostructure. These results provide fundamental insight into the electronic structure of 2DPs and present a route to tune emergent quantum phenomena in 2DP hybrid vdW heterostructures.</p></abstract>
-            </td>
-            <!-- CAGE2 image -->
-                    </tbody></table>
-                    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-                      <td style="padding:20px;width:25%;vertical-align:middle">
-                          <img src='images/cageprism.jpg'onmouseover="this.src='images/cageheart.jpg';"
-                          onmouseout="this.src='images/cageprism.jpg';" width="160">
+                <p>For example, we can ask <i>"what are the design principles that control the flow of electrons in molecular lattices? Can we demonstrate such control through rational selection of the constituent molecules and how they are bound to one another? In doing so, can we develop new optical emitters and flexible devices?</i>"  To address these questions, we studied the underlying principles that control the formation of dispersive and flat electronic bands in 2D organic frameworks.  Where topologically nontrivial flat bands can provide rich opportunities for control of strongly correlated electronic states, low-bandgap dispersive bands can provide optically luminescent, and electronically addressable materials with tunable charge dynamics in nanoscale devices.</p>
+                <p> I approach these questions using optical spectroscopy, photoluminescence micrsocopy, AFM, high-resolution TEM, and X-ray scattering both in home-built setups and at the Advanced Light Source (ALS) and the Molecular Foundry at the Lawrence Berkeley National Lab.</p>
+              </td></tbody></table>
 
-            <!-- CAGE2 text -->
-                        </td>
-                        <td style="padding:20px;width:75%;vertical-align:middle">
-                          <!-- <a href="http://nlt.csail.mit.edu/"> -->
-                            <papertitle>Imaging Bioelectricity with Graphene Optoelectronics: label-free single-shot imaging of extracellular field potentials</papertitle>
-                          </a>
-                          <br>
-                          <b>Halleh B. Balch†</b>, Allister F. Mcguire†, Jason Horng†, Hsin-Zon Tsai, Kevin Li, Yi-Shiou Duh, Michael F. Crommie, Bianxiao Cui, Feng Wang. <em>in preparation</em> (2020)
-                          <br>
-                          <!-- <em>arXiv</em>, 2020 -->
-                          <br>
-                          <!-- <a href="http://nlt.csail.mit.edu/">project page</a> /
-                          <a href="https://arxiv.org/abs/2008.03806">arXiv</a> /
-                          <a href="https://www.youtube.com/watch?v=OGEnCWZihHE">video</a> -->
-                          <p></p>
-                          <p> The measurement of electrical activity across networks of excitable cells underlies current progress in neuroscience, cardiology, pharmacology, and neurotechnology. From microvolts to millivolts and microns to millimeters, the activity of electrogenic networks spans over three orders of magnitude of intensity, space, and time, which poses substantial technological challenge. As a result, the development of non-invasive, parallel, and scalable methods that permit network-scale recordings with single-cell spatial resolution remains key to enabling studies of electrogenic cells, emergent networks, and bioelectric computation. Here, we demonstrate a new technique capable of label-free imaging of extracellular potentials with high spatial resolution across an electrogenic network. The critically coupled waveguide-amplified graphene electric field (CAGE) sensor leverages the unique electric field-sensitive optical transitions in graphene to convert extracellular potentials into the optical regime, permitting simultaneous single-shot spatially resolved readout of electrogenic firing across a wide field of view. As a proof-of-concept, we demonstrate noninvasive label-free detection of native electrical activity from cardiac action potentials, simultaneously map the propagation of these potentials across a cellular network, and sensitively monitor their modification by pharmacological agents. This platform is robust, scalable to highly parallel detection, and directly compatible with existing microscopy techniques for multi-modal correlative imaging.
+
+          <!-- formation of semiconducting, emissive, low-bandgap electronic band structures in 2D covalent organic frameworks and control the formation of low-bandgap, semiconducting, and optically active materials.  -->
+          <p> <papertitle>Photonics for imaging electric fields</papertitle>
+           </p>
+
+           <!-- CAGE2 image -->
+                   <!-- </tbody></table>
+                   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                     <td style="padding:20px;width:25%;vertical-align:middle">
+                         <img src='images/cageprism.jpg'onmouseover="this.src='images/cageheart.jpg';"
+                         onmouseout="this.src='images/cageprism.jpg';" width="160"> -->
+
+           <p> <papertitle> Free-space optical communications (FSOC)</papertitle>
             </p>
 
-                        </td>
-<!-- CAGE 1 image -->
-        </tbody></table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <p> <papertitle> 3D super-resolution microscopy</papertitle>
+             </p>
 
+             <p> <papertitle> Quantum optics and applications of nitrogen vacancy (NV) centers</papertitle>
+              </p>
+
+              <p> <papertitle> Spintronics in ferromagnetic thin films</papertitle>
+               </p>
+
+
+                      <!-- Representative papers are <span class="highlight">highlighted</span>. -->
+                    </p>
+                    <!-- <a href=#smooth_scroll class="anchor" id="research"></a> -->
+                  </td>
+                </tr>
+              </tbody></table>
+
+<!-- Publications section with correct margins -->
+
+              <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                  <tr style="padding:0px">
+                    <td style="padding:0px">
+                      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                        <tr style="padding:0px">
+                          <td style="padding:o;width:63%;vertical-align:middle">
+                            <p style="text-align:left">
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                  <tbody>
+                    <tr>
+                    <!-- <a class="anchor" id="research"></a> -->
+                    <!-- <td style="padding:20px;width:100%;vertical-align:middle"> -->
+                      <heading>Publications</heading>
+                      <p>
+† denotes equal contribution
+                        <!-- Representative papers are <span class="highlight">highlighted</span>. -->
+                      </p>
+                      <a href=#smooth_scroll class="anchor" id="publications"></a>
+                    </td>
+                  </tr>
+                </tbody></table>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        </tbody></table>
+<!-- TIIP image -->
+
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+              <a href="images/tiip1.jpg">
+                <img style="width:160"
+                src="images/tiip1.jpg" class="hoverZoomLink" onmouseover="this.src='images/tiip2.jpg';"
+                onmouseout="this.src='images/tiip1.jpg';">
+              </a> </td> -->
+
+<!-- TIIP text -->
+<!-- */aligns text with image if using a side bar image*/ -->
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+<!-- <td style="padding:20px;width:75%;vertical-align:middle">  -->
+<br></br>
+<papertitle>Electronically Coupled 2D Polymer / MoS<sub>2</sub> Heterostructures</papertitle>
+</a>
+<br><author>
+<b>Halleh B. Balch</b>, Austin M. Evans†, Raghunath R. Dasari†, Hong Li†, Ruofan Li†, Simil Thomas, Danqing Wang, Ryan P. Bisbey, Kaitlin Slicker, Ioannina Castano, Sangni Xun, Lili Jiang, Chenhui Zhu, Nathan Gianneschi, Daniel C. Ralph, Jean-Luc Brédas, Seth R. Marder, William R. Dichtel, Feng Wang.</author>
+
+<br><em>Journal of the American Chemical Society</em> (2020)
+<br>
+<a href="https://pubs.acs.org/doi/10.1021/jacs.0c10151">DOI</a> /
+<a href="https://github.com/hallehbalch/hallehbalch.github.io/raw/master/papers/Balch_jacs.0c10151.pdf">PDF</a> /
+<a href="https://pubs.acs.org/doi/10.1021/jacs.0c12952">JACS Spotlight</a>
+
+<!-- <a href="https://pubs.acs.org/doi/10.1021/jacs.0c10151">publication</a> /
+<a href="https://arxiv.org/abs/2008.03806">arXiv</a> /
+<a href="https://www.youtube.com/watch?v=OGEnCWZihHE">video</a> -->
+<p></p>
+<p>
+<abstract>Emergent quantum phenomena in electronically coupled two-dimensional heterostructures are central to next-generation optical, electronic, and quantum information applications. Tailoring electronic band gaps in coupled heterostructures would permit control of such phenomena and is the subject of significant research interest. Two-dimensional polymers (2DP) offer a compelling route to tailored band structures through the selection of molecular constituents. However, despite this promise of synthetic flexibility and electronic design, fabrication of 2DPs that form electronically coupled 2D heterostructures remains an outstanding challenge. Here, we report the rational design and optimized synthesis of an electronically coupled semiconducting 2DP/2D transition metal dichalcogenide (TMDC) heterostructure, demonstrate direct exfoliation of the highly crystalline and oriented 2DP films down to a few nanometers, and present the first thickness-dependent study of 2DP/TMDC vdW heterostructures. Control over the 2DP layers reveals enhancement of the 2DP photoluminescence by two orders of magnitude in ultra-thin sheets and an unexpected thickness-dependent modulation of the ultrafast excited state dynamics in the 2DP/TMDC heterostructure. These results provide fundamental insight into the electronic structure of 2DPs and present a route to tune emergent quantum phenomena in 2DP hybrid vdW heterostructures.
+</p> </abstract>
+<!-- </td> -->
+  <!-- </tbody></table> -->
+
+  <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+    <!-- <td style="padding:20px;width:25%;vertical-align:middle"> -->
+        <!-- <img src='images/cageprism.jpg'onmouseover="this.src='images/cageheart.jpg';"
+        onmouseout="this.src='images/cageprism.jpg';" width="160"> -->
+      <!-- </td> -->
+
+<!-- CAGE2 text -->
+<!-- <td style="padding:20px;width:75%;vertical-align:middle"> -->
+<br></br>
+<papertitle>Imaging Bioelectricity with Graphene Optoelectronics: label-free single-shot imaging of extracellular field potentials</papertitle>
+</a>
+<br>
+<b>Halleh B. Balch†</b>, Allister F. Mcguire†, Jason Horng†, Hsin-Zon Tsai, Kevin Li, Yi-Shiou Duh, Michael F. Crommie, Bianxiao Cui, Feng Wang. <em>in preparation</em>
+<br>
+<!-- <em>arXiv</em>, 2020 -->
+<br>
+<p></p>
+<p> The measurement of electrical activity across networks of excitable cells underlies current progress in neuroscience, cardiology, pharmacology, and neurotechnology. From microvolts to millivolts and microns to millimeters, the activity of electrogenic networks spans over three orders of magnitude of intensity, space, and time, which poses substantial technological challenge. As a result, the development of non-invasive, parallel, and scalable methods that permit network-scale recordings with single-cell spatial resolution remains key to enabling studies of electrogenic cells, emergent networks, and bioelectric computation. Here, we demonstrate a new technique capable of label-free imaging of extracellular potentials with high spatial resolution across an electrogenic network. The critically coupled waveguide-amplified graphene electric field (CAGE) sensor leverages the unique electric field-sensitive optical transitions in graphene to convert extracellular potentials into the optical regime, permitting simultaneous single-shot spatially resolved readout of electrogenic firing across a wide field of view. As a proof-of-concept, we demonstrate noninvasive label-free detection of native electrical activity from cardiac action potentials, simultaneously map the propagation of these potentials across a cellular network, and sensitively monitor their modification by pharmacological agents. This platform is robust, scalable to highly parallel detection, and directly compatible with existing microscopy techniques for multi-modal correlative imaging.
+</p>
+
+</td>
+
+<!-- UVC Comment -->
+
+<br></br>
+<!-- <a href="https://www.nature.com/articles/ncomms13704"> -->
+  <papertitle>Best practices for germicidal ultraviolet-C dose measurement for N95 respirator decontamination.</papertitle>
+</a>
+<br>
+Alisha Geldert†, <b>Halleh B. Balch†</b>, Anjali Gopal, Alison Su, Samantha M. Grist, Amy E. Herr
+<br>
+<em>under review </em>
+<br>
+<a href="https://doi.org/10.1089/apb.20.0051">DOI</a> /
+<a href="https://arxiv.org/abs/1911.09055v1">PDF</a>
+
+<p></p>
+<p>Ultraviolet-C decontamination holds promise in combating the COVID-19 pandemic, particularly with its potential to mitigate the N95 respirator shortage. Safe, effective, and reproducible decontamination depends critically on UV-C dose, yet dose is frequently measured and reported incorrectly, which results in misleading and potentially harmful protocols. Understanding best practices in UV-C dose measurement for N95 respirator decontamination is essential to the safety of medical professionals, researchers, and the public. Here, we outline the fundamental optical principles governing UV-C irradiation and detection, as well as the key metrics of UV-C
+wavelength and dose. In particular, we discuss the technical and regulatory distinctions between UV-C N95 decontamination and other applications of germicidal UV-C, and highlight the unique considerations required for UV-C N95 decontamination. Together,this discussion will inform best practices for UV-C dose measurement for N95 respirator decontamination during crisis-capacity conditions.
+</p>
+</td>
+
+<!-- UVC Review -->
+<br></br>
+<papertitle>Current Understanding of Ultraviolet-C Decontamination of N95 Filtering Facepiece Respirators</papertitle>
+</a>
+<br>
+Samantha M Grist, Alisha Geldert, Anjali Gopal, Alison Su, <b>Halleh B. Balch</b>, Amy E Herr, and the N95Decon Consortium
+<br>
+<em>Applied Biosafety</em> (2020)
+<br>
+<a href="https://doi.org/10.1089/apb.20.0051">DOI</a> /
+<a href="https://github.com/hallehbalch/hallehbalch.github.io/raw/master/papers/Grist_appbiosafety2020.pdf">PDF</a>
+
+<p></p>
+<p>The COVID-19 pandemic has led to critical shortages of single-use N95 filtering facepiece respirators. The US Centers for Disease Control and Prevention has identified ultraviolet-C (UV-C) irradiation as one of the most promising decontamination methods during crisis-capacity surges; however, understanding the mechanism of pathogen inactivation and post-treatment respirator performance is central to effective UV-C decontamination.
+</p>
+
+
+<!-- Austin NatMat -->
+<br></br>
+<papertitle>Thermally conductive, ultra-low-k dielectric layers based on two- dimensional covalent organic frameworks</papertitle>
+</a>
+<br>
+Austin M. Evans, Ashutosh Giri, Vinod K. Sangwan, Sangni Xun, Matthew Bartnof, Carlos G. Torres-Castanedo, <b>Halleh B. Balch</b>, Matthew S. Rahn, Nathan P. Bradshaw, Edon Vitaku, David W. Burke, Hong Li, Michael J. Bedzyk, Feng Wang, Jean-Luc
+Brédas, Jonathan A. Malen, Alan J. H. McGaughey, Mark C. Hersam, William R.
+Dichtel, Patrick E. Hopkins
+<br>
+<em>accepted at Nature Materials</em> (2021)
+<br>
+<!-- <a href="https://doi.org/10.1016/j.chempr.2017.12.011">DOI</a> / -->
+<!-- <a href="https://arxiv.org/abs/1911.09055v1">PDF</a> -->
+
+<p></p>
+<p>Covalent organic frameworks (COFs) are crystalline polymers with covalent bonds in two or three dimensions, providing pores 1–5 nm in diameter. COFs are typically isolated as microcrystalline powders, which are unsuitable for many applications that would leverage their tunable structures, such as opto- electronic devices and nanofiltration membranes. Here, we report the interfa- cial polymerization of polyfunctional amine and aldehyde monomers with a Lewis acid catalyst, Sc(OTf)3. Immiscible solutions segregate the catalyst from the monomers, confining polymerization to the solution interface. This method provides large-area, continuous COF films (several cm2) with a thickness tuned from 100 mm to 2.5 nm. Relatively thick films were crystalline, whereas the films that are a few nanometers thick were presumably amorphous. The COF films were transferred onto polyethersulfone supports, and the resulting membranes showed enhanced rejection of Rhodamine WT, a model water contaminant. The large area, tunable pore size, and tailored molecular composition show promise for nanofiltration applications
+</p>
+
+
+<!-- Michio Chem -->
+<br></br>
+<!-- <a href="https://www.nature.com/articles/ncomms13704"> -->
+<papertitle>Lewis-Acid-Catalyzed Interfacial Polymerization of Covalent Organic Framework Films</papertitle>
+</a>
+<br>
+Michio Matsumoto, Lauren Valentino, Gregory M. Stiehl, <b>Halleh B. Balch</b>, Amanda R. Corcos, Feng Wang, Daniel C. Ralph, Benito J. Marinas, and William R. Dichtel
+<br>
+<em>Chem</em> (2018)
+<br>
+<a href="https://doi.org/10.1016/j.chempr.2017.12.011">DOI</a> /
+<a href="https://github.com/hallehbalch/hallehbalch.github.io/raw/master/papers/matsumoto_chem2018.pdf">PDF</a>
+
+<p></p>
+<p>Covalent organic frameworks (COFs) are crystalline polymers with covalent bonds in two or three dimensions, providing pores 1–5 nm in diameter. COFs are typically isolated as microcrystalline powders, which are unsuitable for many applications that would leverage their tunable structures, such as opto- electronic devices and nanofiltration membranes. Here, we report the interfa- cial polymerization of polyfunctional amine and aldehyde monomers with a Lewis acid catalyst, Sc(OTf)3. Immiscible solutions segregate the catalyst from the monomers, confining polymerization to the solution interface. This method provides large-area, continuous COF films (several cm2) with a thickness tuned from 100 mm to 2.5 nm. Relatively thick films were crystalline, whereas the films that are a few nanometers thick were presumably amorphous. The COF films were transferred onto polyethersulfone supports, and the resulting membranes showed enhanced rejection of Rhodamine WT, a model water contaminant. The large area, tunable pore size, and tailored molecular composition show promise for nanofiltration applications
+</p>
+
+
+<!-- CAGE 1 image -->
+        <!-- </tbody></table> -->
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody> -->
+<!--
           <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
 
@@ -388,22 +541,51 @@
                 src="images/cage1spike.jpg" class="hoverZoomLink" onmouseover="this.src='images/fermi.jpg';"
                 onmouseout="this.src='images/cage1spike.jpg';">
               </a>
-              </td>
-<!-- CAGE 1 text -->
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <!-- <a href="https://www.nature.com/articles/ncomms13704"> -->
-                <papertitle>Imaging Electric Fields with Graphene Optoelectronics</papertitle>
-              </a>
-              <br>
-              Jason Horng†, <b>Halleh B. Balch†</b>, Allister F. McGuire, Hsin-Zon Tsai, Patrick R. Forrester, Michael F. Crommie, Bianxiao Cui, Feng Wang
-              <br>
-              <em>Nature Communications</em> (2016)
-              <br>
-              <a href="https://arxiv.org/abs/1911.09055v1">arXiv</a>
-              <p></p>
-              <p>The use of electric fields for signalling and control in liquids is widespread, spanning bioelectric activity in cells to electrical manipulation of microstructures in lab-on-a-chip devices. However, an appropriate tool to resolve the spatio-temporal distribution of electric fields over a large dynamic range has yet to be developed. Here we present a label-free method to image local electric fields in real time and under ambient conditions. Our technique combines the unique gate-variable optical transitions of graphene with a critically coupled planar waveguide platform that enables highly sensitive detection of local electric fields with a voltage sensitivity of a few microvolts, a spatial resolution of tens of micrometres and a frequency response over tens of kilohertz. Our imaging platform enables parallel detection of electric fields over a large field of view and can be tailored to broad applications spanning lab- on-a-chip device engineering to analysis of bioelectric phenomena.</p>
-            </td>
+              </td> -->
 
+<!-- CAGE 1 text -->
+<br></br>
+<papertitle>Imaging Electric Fields with Graphene Optoelectronics</papertitle>
+</a>
+<br>
+Jason Horng†, <b>Halleh B. Balch†</b>, Allister F. McGuire, Hsin-Zon Tsai, Patrick R. Forrester, Michael F. Crommie, Bianxiao Cui, Feng Wang
+<br>
+<em>Nature Communications</em> (2016)
+<br>
+<a href="https://doi.org/10.1038/ncomms13704">DOI</a> /
+<a href="https://github.com/hallehbalch/hallehbalch.github.io/raw/master/papers/HorngBalch_ncomms2016.pdf">PDF</a> /
+<a href="https://arxiv.org/abs/1911.09055v1">arXiv</a> /
+<a href="https://newscenter.lbl.gov/2016/12/16/graphene-sees-electrical-signaling-heart-nerve-cells/">Press</a>
+
+
+<p></p>
+<p>The use of electric fields for signalling and control in liquids is widespread, spanning bioelectric activity in cells to electrical manipulation of microstructures in lab-on-a-chip devices. However, an appropriate tool to resolve the spatio-temporal distribution of electric fields over a large dynamic range has yet to be developed. Here we present a label-free method to image local electric fields in real time and under ambient conditions. Our technique combines the unique gate-variable optical transitions of graphene with a critically coupled planar waveguide platform that enables highly sensitive detection of local electric fields with a voltage sensitivity of a few microvolts, a spatial resolution of tens of micrometres and a frequency response over tens of kilohertz. Our imaging platform enables parallel detection of electric fields over a large field of view and can be tailored to broad applications spanning lab- on-a-chip device engineering to analysis of bioelectric phenomena.</p>
+</td>
+
+            <!-- Patent section with correct margins -->
+
+                          <!-- <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                              <tr style="padding:0px">
+                                <td style="padding:0px">
+                                  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                                    <tr style="padding:0px">
+                                      <td style="padding:o;width:63%;vertical-align:middle">
+                                        <p style="text-align:left"> -->
+
+
+      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <a href=#smooth_scroll class="anchor" id="resources"></a>
+            <heading>Patents</heading>
+            <p>
+            US Patent 10,782,233. “Optical sensing with critically coupled planar waveguide with optional integration of layered two-dimensional materials.” UC Berkeley. (2020)   <a href="http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=10782233.PN.&OS=PN/10782233&RS=PN/10782233">Link</a> </p>
+
+
+
+  <!-- Representative papers are <span class="highlight">highlighted</span>. -->
+                          <a href=#smooth_scroll class="anchor" id="research"></a>
+                        </td>
+                      </tr>
+                    </tbody></table>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                   <tbody>
@@ -428,6 +610,7 @@
                       <heading>More</heading>
                       <p>
                         interesting people
+                                        <!-- I did my undergraduate work in Physics and Literature at <a href="https://www.swarthmore.edu/">Swarthmore College</a>, conducted research at <a href="https://www.berkeley.edu/">UC Berkeley</a>,<a href="https://www.mit.edu/"> MIT</a>, the <a href="https://www.janelia.org/">HHMI Janelia Farm Research Campus</a>, and <a href="https://x.company/">[X]</a>, and was as a journalist and violinist. -->
                         hikes
                         reading
                         music resources etc
