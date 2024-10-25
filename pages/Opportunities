@@ -14,7 +14,7 @@
     gtag('config', 'G-LD87H8K4KC');
   </script>
 
-  <title>Balch Research – Get In Touch </title>
+  <title>Balch Research – Opportunities </title>
 
 <style type="text/css">
 
@@ -297,7 +297,7 @@ list-style-type: square;
 
 <!-- Start of Main website material -->
 
-<title> Get In Touch </title>
+<title> Opportunities </title>
 
   <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
@@ -317,7 +317,7 @@ list-style-type: square;
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                       <tbody>
                         <tr>
-  <heading>We're Hiring!</heading>
+  <heading>Opportunities</heading>
                           <p>
                             <!-- Representative papers are <span class="highlight">highlighted</span>. -->
                           </p>
@@ -328,17 +328,18 @@ list-style-type: square;
                     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             </tbody></table>
 
-    <!-- Hiring -->
+    <!-- We're Hiring! -->
     <p style="text-align:left">
      <!-- <cvtopic>Open Positions</cvtopic> -->
    
     <br><cvtext><ul>
 
-       <li> PhD Students
-       <li> Postdoctoral Scholars
-       <li> Research Scientists
-
-
+       <li> PhD Students: We're hiring motivated PhD students to join our group. Given the interdisciplinary nature of our research, students from diverse intellectual backgrounds (e.g. physics, oceanography, biology, electrical engineering, computer science, mechanical engineering) are encouraged to apply. Current and prospective students are strongly encouraged to reach out with a brief description of your background and interests and include a copy of your CV.   
+      
+      <li> Postdoctoral Scholars: Interested postdoctoral scholars are encouraged to reach out with your CV, a breif description of your background, future research interests and goals, and contact information for three references.
+      
+      <li> Undergraduates: We welcome undergraduate students from a wide range of disciplines and experiences. If you are interested in doing a research project with us, please reach out with a brief description of your background (classes and outside activities including jobs/volunteerships) and interests (e.g. have you ever fixed a bicycle, built a radio, made a sculpture, taken a machine shop class, taught a friend a skill...)
+    
     </cvtext>
     </table>
     </p>
